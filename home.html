@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+	<!-- PRINCIPAL -->
+
+	<!-- NOSOTROS -->
+		<section id="primera_division" class="nosotros">
+			<div>
+				<img src="{{ url_for('static', filename='images/alternative-energy.jpeg') }}" width="150px" align="left">
+			</div>
+
+			<div>
+				<h2>Nosotros</h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+				<ul>
+					<li>Item 1.........</li>
+					<li>Item 2.........</li>
+					<li>Item 3.........</li>
+				</ul>
+				<span><a href="/portafolio">Portafolio</a> </span>
+			</div>
+		</section>
+
+		<!-- SERVICIOS -->
+		<section id="segunda_division" class="servicios">
+			<h2>Servicios</h2>
+			<ul>
+				<li>
+					<h3>Asesoramiento</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</li>
+				<li>
+					<h3>Sistemas</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</li>
+				<li>
+					<h3>Capacitaciones</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</li>
+				<li>
+					<h3>Productos</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</li>
+			</ul>
+		</section>
+
+{% endblock %}
