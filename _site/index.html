@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+	<!-- PRINCIPAL -->
+
+	<!-- NOSOTROS -->
+		<section id="primera_division" class="nosotros">
+			<div>
+				<img src="{{ url_for('static', filename='images/alternative-energy.jpeg') }}" width="150px" align="left">
+			</div>
+
+			<div>
+				<h2>Nosotros</h2>
+				<p>Yammva ecosistemas es...</p>
+				<ul>
+					<li>Item 1.........</li>
+					<li>Item 2.........</li>
+					<li>Item 3.........</li>
+				</ul>
+				<span><a href="/portafolio">Portafolio</a> </span>
+			</div>
+		</section>
+
+		<!-- SERVICIOS -->
+		<section id="segunda_division" class="servicios">
+			<h2>Lo que hacemos</h2>
+			<ul>
+				<li>
+					<h3>Asesoramiento</h3>
+					<p>
+						Contamos con un equipo de expertos para brindarte el mejor servicio. Analizamos tu situación particular, la de tu tierra y recursos, y en base a eso elaboramos un plan de administración sostenible que aumentará tu eficiencia.
+					</p>
+				</li>
+				<li>
+					<h3>Obras</h3>
+					<p>
+						Con más de 15 años de experiencia, estamos preparados para la construcción, renovación y mantenimiento de sistemas ecológicos.
+					</p>
+				</li>
+				<li>
+					<h3>Capacitaciones</h3>
+					<p>
+						Vamos a tu comunidad y transmitimos todo nuestro conocimiento en sistemas renovables, construcción, captación de agua de lluvia, etc.
+					</p>
+				</li>
+				<li>
+					<h3>Productos</h3>
+					<p>
+						Desde cisternas y acequias hasta cocinas y hornos de barro ecológicos, tenemos exactamente lo que necesitas para equipar de la mejor manera tu propiedad.
+					</p>
+				</li>
+			</ul>
+		</section>
+
+{% endblock %}
