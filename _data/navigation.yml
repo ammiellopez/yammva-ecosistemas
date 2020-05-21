@@ -1,0 +1,8 @@
+- name: Nosotros
+  link: /#primera_division
+- name: Lo que hacemos
+  link: /#segunda_division
+- name: Blog
+  link: /blog.html
+- name: Contacto
+  link: /#tercera_division
