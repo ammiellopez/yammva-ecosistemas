@@ -1,5 +1,8 @@
+collections:
+  authors:
+
 defaults:
-  - scope:
+  scope:
     path:
   values:
     layout: "default"
