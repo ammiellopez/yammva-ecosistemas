@@ -1,28 +1,40 @@
-* { margin: 1000; padding: 0; box-sizing: border-box; font: sans-serif; }
+* { margin: 0; padding: 0; font-family: sans-serif; }
 
-.current { color: red; }
+.cabecera { background: #fff; margin: 1000; padding-top: 5px; }
 
-h1 { color: blue; }
+.titulo { padding-top: 30px; padding-bottom: 100px; padding-left: 100px; }
 
-.cabecera { background: #fff; margin: 1000; padding-top: 10px; padding-right: 50px; padding-bottom: 210px; padding-left: 50px; }
+.slogan { text-align: right; color: #0097e6; font: 20px bold; padding-right: 50px; }
 
-.titulo { text-align: left; color: #222f3e; font: 50px sans-serif; }
+.slogan ul li { list-style: none; }
 
-.slogan { text-align: right; color: #10ac84; font: 18px sans-serif; }
+.navegacion ul { background: #000000; font: 18px; text-align: right; margin-top: 20px; padding-top: 15px; padding-right: 50px; padding-bottom: 15px; list-style: none; border-top: 3px solid #00b894; }
 
-.navegacion { background: #000; color: #fff; font: sans-serif; padding-top: 10px; padding-right: 500px; box-sizing: border-box; text-align: center; }
+.navegacion li { display: inline-block; margin-right: 30px; }
 
-.nosotros { background: #10ac84; margin: 1000; padding: 50px; text-align: right; font: sans-serif; padding-right: 100px; }
+.navegacion a { color: #f5f6fa; text-decoration: none; }
 
-.servicios { background: #c8d6e5; margin: 1000; padding: 50px 20px; font: sans-serif; padding-left: 100px; }
+.navegacion a:hover { color: #00b894; }
 
-section h2 { font: 30px sans-serif; }
+.imagen { image-resolution: snap; }
+
+.nosotros { background: #d7992d; color: #ffffff; margin: 1000; padding: 50px; text-align: right; padding-top: 70px; padding-bottom: 70px; padding-right: 100px; }
+
+.portafolio_link { padding-top: 20px; list-style: none; }
+
+.portafolio_link a { color: #f5f6fa; text-decoration: none; }
+
+.portafolio_link a:hover { color: #d7992d; }
+
+.servicios { margin: 1000; padding-left: 100px; padding-top: 70px; padding-bottom: 70px; padding-right: 100px; }
+
+section h2 { padding-bottom: 10px; font: 30px sans-serif; }
 
 section p { font: 18px sans-serif; }
 
 section h3 { font: 18px sans-serif; }
 
-.portafolio_titulo { font-family: sans-serif; font-size: 30px; text-align: left; padding-left: 20px; }
+.portafolio_titulo { font-size: 30px; text-align: left; padding-left: 20px; }
 
 .obras { background: #10ac84; color: #fff; padding: 50px 50px; }
 
@@ -30,10 +42,16 @@ section h3 { font: 18px sans-serif; }
 
 .productos { background: #d7992d; color: #222f3e; padding: 50px 50px; }
 
-.contacto { background: #1dd1a1; color: #fff; text-align: center; margin: 1000; padding: 50px 20px; }
+.contacto { background: #218c74; color: #fff; text-align: center; margin: 1000; padding: 50px 20px; border-bottom: 2px solid #ffb142; }
 
-.contacto h2 { font: sans-serif; }
+.contacto h2 { font-family: 'Quicksand', sans-serif; }
 
-footer { background: #222f3e; color: #fff; margin: 1000; padding-top: 10px; padding-right: 50px; padding-bottom: 10px; padding-left: 50px; text-align: center; }
+.pie_pagina { background: #222f3e; color: #fff; padding-top: 25px; padding-bottom: 25px; padding-left: 20px; text-align: center; }
+
+.pie_pagina ul { list-style: none; text-align: left; display: inline-block; margin-right: 900px; }
+
+.pie_pagina a { color: #f5f6fa; }
+
+.pie_pagina a:hover { color: #00b894; }
 
 /*# sourceMappingURL=styles.css.map */
